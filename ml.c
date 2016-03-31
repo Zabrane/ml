@@ -363,6 +363,7 @@ kern_return_t catch_exception_raise_state_identity(
       }; break;
     case 20:TC(writev);break;
     case 39:TC(getpid);break;
+    case 53:TC(socketpair);break;
 #if 0
     case 56: { /* clone */
 printf("clone %p\n", (void*)R(rdi));
